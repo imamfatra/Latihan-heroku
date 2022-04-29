@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prediksi Berat Badan</title>
+        <link rel="stylesheet" href="../static/Tugas.css" type="text/css">
+
+    </head>
+
+    <body>
+        <h2>Masukan Tinggi Badan dan Jenis Kelamin Anda</h2>
+        <form action="" method="get">
+            <p>Tinggi Badan: 
+                <input type="text" name="tinggi_badan" size="9">
+                cm
+            </p>
+            <p>Jenis Kelamin: 
+                <select name="gender">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </p>
+            
+        </form>
+        <button type="submit">
+            Prediksi
+        </button>
+        
+        {% if result is defined %}
+        <div>
+            <h3>Hasil prediksi: {{result}} kg</h3>
+        </div>
+        {% endif %}
+    </body>
+</html>

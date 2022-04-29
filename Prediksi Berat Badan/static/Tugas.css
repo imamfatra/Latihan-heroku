@@ -1,0 +1,33 @@
+body { 
+    background-color: #0e3050;
+}
+
+h2 {
+    color: #fbfcfd;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 42px;
+}
+p {
+    color: #fbfcfd;
+    margin-left: 530px;
+    font-size: 20px;
+}
+div {
+    margin-left: 540px;
+    color: white;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 8px 22px;
+    margin-top: 10px;
+    margin-left: 600px;
+}
